@@ -1,8 +1,8 @@
-# 🧠 Pratt Parser in Dart
+# 🧠 Syntax Parser in Dart
 
 ## 📝 Introduction
 
-After learning about parsing theory, I wanted to implement a **Pratt parser** (top-down operator precedence parser) from scratch — one of the most elegant algorithms for parsing expressions.
+Implementation of a **Top-Down-Operator-Precedence Parser** in Dart.
 
 The core idea: instead of encoding grammar rules recursively, operators are assigned **precedence levels** and **associativity**, which the parser uses to decide how tightly an operator binds to its operands. This makes it easy to support complex expressions — arithmetic, logical, relational, ternary, assignments, member access, and function calls — all in a clean, extensible way.
 
